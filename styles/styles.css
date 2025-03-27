@@ -234,6 +234,7 @@ footer {
 
 .seccionContacto{
     display: flex;
+    margin-top: 50px;
 }
 
 .cajaCuestionario{
@@ -265,17 +266,31 @@ footer {
     border: none;
     width: 55vw;
     height: 5vh;
-    margin-bottom:30px;
+    margin-bottom:50px;
 }
 
 .mapa{
     object-fit: contain;
-    width: 122%;
+    width: 20vw;
     height: auto;
     position: relative;
-    top: 40px;
+    top: 60px;
     right: 30px;
     
+}
+
+.cajaCont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container3{
+    background-color: #35424a;
+    width: 17vw;
+    height: 28vh;
+    color: #ffffff;
+    padding: 10px 30px;
+    margin: 0 50px;
 }
 
 /* fin de contactos */
