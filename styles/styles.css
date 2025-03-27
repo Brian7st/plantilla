@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #24282b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 85px;
+    border-bottom:5px #1293d4 solid;
+}
+
+.title1 {
+    font-size: 22px;
+    position: relative;
+    right: 30px;
+    display: flex;
+    gap: 10px;
+    color: #c8cfd4;
+}
+.titleblue {
+    color: #1293d4;
+}
+
+nav a {
+    margin-left: 50px;
+    color: #c8cfd4;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hover-a :hover {
+    color: #1293d4;
+}
+
+.fondo{
+    background-image: url(/assets/cabecera.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #c8cfd4;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+
+.text1{
+    width: 80%;
+    max-width: 800px;
+}
+
+.text1 h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.text1 p {
+    font-size: 1.2em;
+}
+
+.menu-suscribete{
+    background-color: #24282b;
+    display: flex;
+    justify-content: space-around;
+    height: 92px;
+    align-items: center;
+}
+
+.menu-suscribete h2 {
+    color: #c8cfd4;
+    margin-right: 260px;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.boton input {
+    padding: 5px 0px;
+    width: 280px;
+    color: #63696e;
+    height: 30px;
+}
+
+.boton button {
+    background-color: #e8491d;
+    border: none;
+    height: 49px;
+    color: #ffffff;
+    width: 120px;
+    font-size: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
+    
+}
+.menu p {
+    width: 400px;
+}
+.menu img {
+    object-fit: scale-down;
+    width: 150px;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.diseño {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #1293d4;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 10px;
+    align-items: center;
+}
+
+/* fin de inicio */
+
+
+/* inicion de nosotros */
+
+.seccion1 {
+    display: flex;
+}
+
+.container1{
+    margin: 30px 53px 19px 120px ;
+    width: 56vw;
+    height: 53vh;
+}
+
+
+.container1 p, .container1 img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container1 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.fondogris{
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 3px 20px;
+    margin-bottom: 18px;
+}
+
+.container2 {
+    background-color: #35424a;
+    width: 18vw;
+    height: 28vh;
+    color: #ffffff;
+    padding: 10px 30px;
+    margin: 40px 60px;
+}
+.container2 h2{
+    font-size: 20px;
+}
+.container2 p {
+    font-size: 15px;
+    text-align: justify;
+}
+.footerNosotros{
+    display: flex;
+    margin-top: 95px;
+    height: 120px;  
+    font-size: 13px;  
+}
+
+/* Fin de nosotros */
+
+/* Inicio de servicios */
+
+.seccionServicios{
+    display: flex;
+}
+
+.cajaservicios{
+    margin-left:130px ;
+    margin-bottom: 20px;
+}
+
+.caja1 {
+    background-color: #e6e6e6;
+    height: 20vh;
+    width: 54vw;
+    padding: 15px 30px;
+    margin: 0px 35px 8px 0px;
+}
+
+/* fin de servicios */
+
+/* inicio de contactos */
+.contactosBody{
+    background-color: #f4f4f4;
+}
+
+.seccionContacto{
+    display: flex;
+}
+
+.cajaCuestionario{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cajaCuestionario input{
+    height: 35px;
+    margin-bottom: 5px;
+    color: #bebaba;
+}
+.cajaCuestionario2 textarea {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 54.5vw;
+    height: 20vh;
+    margin-bottom:10px ;
+}
+.cuestionario{
+    margin-left: 130px;
+    width: 55vw;
+
+}
+.cuestionario button {
+    color: #ffffff;
+    background-color: #e8491d;
+    border: none;
+    width: 55vw;
+    height: 5vh;
+    margin-bottom:30px;
+}
+
+.mapa{
+    object-fit: contain;
+    width: 122%;
+    height: auto;
+    position: relative;
+    top: 40px;
+    right: 30px;
+    
+}
+
+/* fin de contactos */
+
+
+
+
