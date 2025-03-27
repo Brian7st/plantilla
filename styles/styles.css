@@ -35,7 +35,7 @@ nav a {
 }
 
 .fondo{
-    background-image: url(/assets/cabecera.jpg);
+    background-image: url(../assets/cabecera.jpg);
     background-size: cover;
     background-position:center;
     height: 500px;
